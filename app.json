@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Bone Inn",
+    "slug": "bone-inn-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.boneinn.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Bone Inn needs camera access to let you add photos of your dog.",
+        "NSPhotoLibraryUsageDescription": "Bone Inn needs photo library access to let you add photos of your dog.",
+        "NSLocationWhenInUseUsageDescription": "Bone Inn uses your location to find dogs near you for playdates."
+      }
+    },
+    "android": {
+      "package": "com.boneinn.app"
+    }
+  }
+}
